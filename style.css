@@ -343,11 +343,6 @@ a:hover {
     color: #F00;
 }
 
-.popup .content {
-    max-height: 70%;
-    overflow: auto;
-}
-
 #startdelay {
     font-size: 20vmax;
     color: white;
