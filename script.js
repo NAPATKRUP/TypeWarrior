@@ -41,19 +41,19 @@ function rightChange() {
     mode = statusmode.getAttribute('mode');
     if(mode == 'easy') {
         statusmode.setAttribute('mode','medium');
-        statusmode.innerHTML = "Medium";
+        statusmode.innerHTML = "MEDIUM";
     }
     if(mode == 'medium') {
         statusmode.setAttribute('mode','hard');
-        statusmode.innerHTML = "Hard";
+        statusmode.innerHTML = "HARD";
     }
     if(mode == 'hard') {
         statusmode.setAttribute('mode','expert');
-        statusmode.innerHTML = "Expert";
+        statusmode.innerHTML = "EXPERT";
     }
     if(mode == 'expert') {
         statusmode.setAttribute('mode','easy');
-        statusmode.innerHTML = "Easy";
+        statusmode.innerHTML = "EASY";
     }
     soundClick();
 }
@@ -109,7 +109,7 @@ function setMode(mode) {
 function random() {
     words.innerHTML = "";
     correct = 0;
-    var random = Math.floor(Math.random()*10000)%1943;
+    var random = Math.floor(Math.random()*100000)%3000;
     var wordArray = wordlist[random].split("");
     for (var i = 0; i < wordArray.length; i++) {
         var span = document.createElement("span");
