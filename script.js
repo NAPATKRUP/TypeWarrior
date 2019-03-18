@@ -6,6 +6,7 @@ var loadingstart = document.getElementById("loadingstart");
 var presshere = document.getElementById("presshere");
 var contact = document.getElementById("contact");
 var load = document.getElementById("load");
+var loadsuccess = document.getElementById("loadsuccess");
 var mainmenu = document.getElementById("mainmenu");
 var preload = document.getElementById("preload");
 var level = document.getElementById("level");
@@ -323,6 +324,7 @@ function menuGame() {
     gamewin.style.display = "none";
     gameover.style.display = "none";
     scoreboard.style.display = "none";
+    loadsuccess.style.display = "none";
     mainmenu.style.display = "block";
     contact.style.display = "block";
 }
@@ -404,6 +406,8 @@ function myFunction() {
 
 function showPage() {
     loadingstart.style.display = "none";
+    load.style.display = "none";
+    loadsuccess.style.display = "block";
     presshere.style.display = "block";
 }
 
