@@ -1,6 +1,8 @@
 # Type Warrior ⌨️
 ### Project นี้ เป็นส่วนหนึ่งของวิชา Multimedia Technology (06016311)
 
+#### Main Git Repo: https://github.com/max180643/Type_Warrior
+
 #### Play Game ! : https://napatkrup.github.io/TypeWarrior/
 #### Youtube : https://youtu.be/6nhrf2ogfl0
 
